@@ -25,6 +25,16 @@ Analyze 4 years of retail order data to answer: which regions, categories, and c
 ## Tools Used
 Microsoft Excel (formulas, PivotTable-style aggregation, native charts), data sourced and cleaned from a public Kaggle dataset.
 
+## Zoho Analytics Dashboard (Companion Build)
+
+To complement the Excel workbook and demonstrate cloud BI tooling, the same dataset and KPIs were rebuilt as an interactive dashboard in Zoho Analytics.
+
+![Zoho Analytics Dashboard](Zoho_Dashboard_Screenshot.png)
+
+**Live interactive dashboard:** https://analytics.zoho.in/open-view/554171000000007006
+
+Same 4 KPIs (Total Revenue, Unique Orders, Line Items, Avg Order Value) and same 4 charts (Revenue by Region, Revenue by Category, Revenue by Sub-Category, Monthly Revenue Trend), cross-validated to match the Excel workbook's figures exactly.
+
 ## Files
 - `Superstore_BI_Dashboard.xlsx` — the dashboard (Dashboard tab + Raw Data tab)
 - `data/train.csv` — source dataset
