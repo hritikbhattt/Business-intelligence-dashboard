@@ -35,6 +35,11 @@ To complement the Excel workbook and demonstrate cloud BI tooling, the same data
 
 Same 4 KPIs (Total Revenue, Unique Orders, Line Items, Avg Order Value) and same 4 charts (Revenue by Region, Revenue by Category, Revenue by Sub-Category, Monthly Revenue Trend), cross-validated to match the Excel workbook's figures exactly.
 
+## How to View
+
+- **Excel dashboard:** download `Superstore_BI_Dashboard.xlsx` and open in Microsoft Excel (best viewed in Excel directly — Google Sheets can distort native Excel chart objects). Open to the "Dashboard" tab to see KPIs and charts; "Raw Data" tab holds the source records.
+- **Zoho dashboard:** click the [live interactive link](https://analytics.zoho.in/open-view/554171000000007006) above — no login required, opens directly in your browser.
+
 ## Files
 - `Superstore_BI_Dashboard.xlsx` — the Excel dashboard (Dashboard tab + Raw Data tab)
 - `data/train.csv` — source dataset (Kaggle Superstore Sales)
