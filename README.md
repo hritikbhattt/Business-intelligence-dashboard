@@ -36,8 +36,10 @@ To complement the Excel workbook and demonstrate cloud BI tooling, the same data
 Same 4 KPIs (Total Revenue, Unique Orders, Line Items, Avg Order Value) and same 4 charts (Revenue by Region, Revenue by Category, Revenue by Sub-Category, Monthly Revenue Trend), cross-validated to match the Excel workbook's figures exactly.
 
 ## Files
-- `Superstore_BI_Dashboard.xlsx` — the dashboard (Dashboard tab + Raw Data tab)
-- `data/train.csv` — source dataset
+- `Superstore_BI_Dashboard.xlsx` — the Excel dashboard (Dashboard tab + Raw Data tab)
+- `data/train.csv` — source dataset (Kaggle Superstore Sales)
+- `Zoho_Dashboard_Screenshot.png` — preview image of the Zoho Analytics dashboard
+- `LICENSE` — MIT License
 
 ## Notes
 This project uses a widely-used public training dataset for demonstrating BI/dashboard skills (dates reflect the original dataset's 2015–2018 range). Project built: August 2026.
