@@ -1,5 +1,16 @@
 # Business Intelligence Dashboard — Superstore Sales Analysis
 
+## Table of Contents
+- [Problem](#problem)
+- [Data Source](#data-source)
+- [Approach](#approach)
+- [Key Insights](#key-insights)
+- [Tools Used](#tools-used)
+- [Zoho Analytics Dashboard (Companion Build)](#zoho-analytics-dashboard-companion-build)
+- [Files](#files)
+- [How to View](#how-to-view)
+- [Notes](#notes)
+
 Interactive BI dashboard built in **Microsoft Excel** to analyze sales performance across regions, product categories, and time. Built using formula-driven KPIs (SUMIFS/COUNTIFS) and live charts — no hardcoded values, so every number recalculates automatically if the underlying data changes.
 
 ## Problem
