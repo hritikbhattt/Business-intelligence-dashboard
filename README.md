@@ -1,4 +1,4 @@
-# Business Intelligence Dashboard — Superstore Sales Analysis
+# Business Intelligence Dashboard - Superstore Sales Analysis
 
 ## Table of Contents
 - [Problem](#problem)
@@ -13,7 +13,7 @@
 - [Notes](#notes)
 - [Recommendations](#recommendations)
 
-Interactive BI dashboard built in **Microsoft Excel** to analyze sales performance across regions, product categories, and time. Built using formula-driven KPIs (SUMIFS/COUNTIFS) and live charts — no hardcoded values, so every number recalculates automatically if the underlying data changes.
+Interactive BI dashboard built in **Microsoft Excel** to analyze sales performance across regions, product categories, and time. Built using formula-driven KPIs (SUMIFS/COUNTIFS) and live charts - no hardcoded values, so every number recalculates automatically if the underlying data changes.
 
 ![Excel Dashboard](Excel_Dashboard_Screenshot.png)
 
@@ -21,7 +21,7 @@ Interactive BI dashboard built in **Microsoft Excel** to analyze sales performan
 Analyze 4 years of retail order data to answer: which regions, categories, and customer segments drive the most revenue, and how does revenue trend over time?
 
 ## Data Source
-[Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) — Kaggle, 9,800 order line items across 4,922 unique orders, spanning FY2015–FY2018.
+[Superstore Sales Dataset](https://www.kaggle.com/datasets/rohitsahoo/sales-forecasting) - Kaggle, 9,800 order line items across 4,922 unique orders, spanning FY2015–FY2018.
 
 ## Approach
 - Imported and cleaned raw order-level data (converted date fields, added helper columns for month grouping and unique-order detection)
@@ -32,7 +32,7 @@ Analyze 4 years of retail order data to answer: which regions, categories, and c
 
 ## Sample Formulas
 
-A few of the actual formulas driving the dashboard (all pull live from the `Raw Data` sheet — no hardcoded numbers):
+A few of the actual formulas driving the dashboard (all pull live from the `Raw Data` sheet - no hardcoded numbers):
 
 ```excel
 Total Revenue        =SUM('Raw Data'!R2:R9801)
@@ -69,14 +69,14 @@ Same 4 KPIs (Total Revenue, Unique Orders, Line Items, Avg Order Value) and same
 
 ## How to View
 
-- **Excel dashboard:** download `Superstore_BI_Dashboard.xlsx` and open in Microsoft Excel (best viewed in Excel directly — Google Sheets can distort native Excel chart objects). Open to the "Dashboard" tab to see KPIs and charts; "Raw Data" tab holds the source records.
-- **Zoho dashboard:** click the [live interactive link](https://analytics.zoho.in/open-view/554171000000007006) above — no login required, opens directly in your browser.
+- **Excel dashboard:** download `Superstore_BI_Dashboard.xlsx` and open in Microsoft Excel (best viewed in Excel directly - Google Sheets can distort native Excel chart objects). Open to the "Dashboard" tab to see KPIs and charts; "Raw Data" tab holds the source records.
+- **Zoho dashboard:** click the [live interactive link](https://analytics.zoho.in/open-view/554171000000007006) above - no login required, opens directly in your browser.
 
 ## Files
-- `Superstore_BI_Dashboard.xlsx` — the Excel dashboard (Dashboard tab + Raw Data tab)
-- `data/train.csv` — source dataset (Kaggle Superstore Sales)
-- `Zoho_Dashboard_Screenshot.png` — preview image of the Zoho Analytics dashboard
-- `LICENSE` — MIT License
+- `Superstore_BI_Dashboard.xlsx` - the Excel dashboard (Dashboard tab + Raw Data tab)
+- `data/train.csv` - source dataset (Kaggle Superstore Sales)
+- `Zoho_Dashboard_Screenshot.png` - preview image of the Zoho Analytics dashboard
+- `LICENSE` - MIT License
 
 ## Notes
 This project uses a widely-used public training dataset for demonstrating BI/dashboard skills (dates reflect the original dataset's 2015–2018 range). Project built: August 2026.
@@ -85,6 +85,6 @@ This project uses a widely-used public training dataset for demonstrating BI/das
 
 Based on the revenue breakdown above, three actionable takeaways:
 
-- **Rebalance regional investment.** South trails every other region by a wide margin ($389K vs. West's $710K). Worth investigating whether this is a market-size limitation or an under-invested territory — if the latter, reallocating marketing/sales spend toward South could close part of that gap.
+- **Rebalance regional investment.** South trails every other region by a wide margin ($389K vs. West's $710K). Worth investigating whether this is a market-size limitation or an under-invested territory - if the latter, reallocating marketing/sales spend toward South could close part of that gap.
 - **Double down on Phones and Chairs.** These two sub-categories alone drive a disproportionate share of revenue. Prioritizing inventory, supplier negotiations, and promotional focus here likely yields more return than spreading effort evenly across all 17 sub-categories.
-- **Protect the Consumer segment.** At over half of total revenue, Consumer is the backbone of the business — any retention or loyalty initiative should target this segment first, since even a small drop-off here would outweigh gains in Corporate or Home Office.
+- **Protect the Consumer segment.** At over half of total revenue, Consumer is the backbone of the business - any retention or loyalty initiative should target this segment first, since even a small drop-off here would outweigh gains in Corporate or Home Office.
