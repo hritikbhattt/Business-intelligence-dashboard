@@ -4,6 +4,7 @@
 - [Problem](#problem)
 - [Data Source](#data-source)
 - [Approach](#approach)
+- [Sample Formulas](#Sample-Formulas)
 - [Key Insights](#key-insights)
 - [Tools Used](#tools-used)
 - [Zoho Analytics Dashboard (Companion Build)](#zoho-analytics-dashboard-companion-build)
@@ -27,6 +28,23 @@ Analyze 4 years of retail order data to answer: which regions, categories, and c
 - Broke down revenue by Region, Category, Segment, and Sub-Category using summary tables
 - Built a 48-month revenue trend table to surface seasonality
 - Visualized everything with 4 native Excel charts (bar, pie, horizontal bar, line)
+
+## Sample Formulas
+
+A few of the actual formulas driving the dashboard (all pull live from the `Raw Data` sheet — no hardcoded numbers):
+
+```excel
+Total Revenue        =SUM('Raw Data'!R2:R9801)
+Unique Orders        =SUM('Raw Data'!T2:T9801)
+Line Items           =COUNTA('Raw Data'!A2:A9801)
+Avg Order Value      =B6/D6
+Revenue by Region     =SUMIFS('Raw Data'!$R$2:$R$9801, 'Raw Data'!$M$2:$M$9801, B11)
+Revenue by Category   =SUMIFS('Raw Data'!$R$2:$R$9801, 'Raw Data'!$O$2:$O$9801, F11)
+Revenue by Sub-Category =SUMIFS('Raw Data'!$R$2:$R$9801, 'Raw Data'!$P$2:$P$9801, B19)
+Monthly Revenue Trend =SUMIFS('Raw Data'!$R$2:$R$9801, 'Raw Data'!$S$2:$S$9801, F19)
+```
+
+Column reference: `R` = Sales, `M` = Region, `O` = Category, `P` = Sub-Category, `S` = Order Month, `T` = First Order Flag (used to count unique orders).
 
 ## Key Insights
 - Total revenue across the dataset: **$2,261,536**
