@@ -11,6 +11,7 @@
 - [Files](#files)
 - [How to View](#how-to-view)
 - [Notes](#notes)
+- [Recommendations](#recommendations)
 
 Interactive BI dashboard built in **Microsoft Excel** to analyze sales performance across regions, product categories, and time. Built using formula-driven KPIs (SUMIFS/COUNTIFS) and live charts — no hardcoded values, so every number recalculates automatically if the underlying data changes.
 
@@ -79,3 +80,11 @@ Same 4 KPIs (Total Revenue, Unique Orders, Line Items, Avg Order Value) and same
 
 ## Notes
 This project uses a widely-used public training dataset for demonstrating BI/dashboard skills (dates reflect the original dataset's 2015–2018 range). Project built: August 2026.
+
+## Recommendations
+
+Based on the revenue breakdown above, three actionable takeaways:
+
+- **Rebalance regional investment.** South trails every other region by a wide margin ($389K vs. West's $710K). Worth investigating whether this is a market-size limitation or an under-invested territory — if the latter, reallocating marketing/sales spend toward South could close part of that gap.
+- **Double down on Phones and Chairs.** These two sub-categories alone drive a disproportionate share of revenue. Prioritizing inventory, supplier negotiations, and promotional focus here likely yields more return than spreading effort evenly across all 17 sub-categories.
+- **Protect the Consumer segment.** At over half of total revenue, Consumer is the backbone of the business — any retention or loyalty initiative should target this segment first, since even a small drop-off here would outweigh gains in Corporate or Home Office.
