@@ -4,7 +4,7 @@
 - [Problem](#problem)
 - [Data Source](#data-source)
 - [Approach](#approach)
-- [Sample Formulas](#Sample-Formulas)
+- [Sample Formulas](#sample-formulas)
 - [Key Insights](#key-insights)
 - [Tools Used](#tools-used)
 - [Zoho Analytics Dashboard (Companion Build)](#zoho-analytics-dashboard-companion-build)
