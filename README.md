@@ -13,7 +13,7 @@
 - [Notes](#notes)
 - [Recommendations](#recommendations)
 
-Interactive BI dashboard built in **Microsoft Excel** to analyze sales performance across regions, product categories, and time. Built using formula-driven KPIs (SUMIFS/COUNTIFS) and live charts - no hardcoded values, so every number recalculates automatically if the underlying data changes.
+Interactive BI dashboard built in **Microsoft Excel** to analyze sales performance across regions, product categories, and time. Built using formula-driven KPIs (SUMIFS/COUNTIFS) and live charts - no hardcoded values, so every number recalculates automatically if the underlying data changes. 
 
 ![Excel Dashboard](Excel_Dashboard_Screenshot.png)
 
